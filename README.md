@@ -1,11 +1,11 @@
-# Project Name
+# Project Name:
 
-## Team Members
+## Team Members: Thunpitcha
 
-## Problem
+## Problem: How to create a music website where users will be able to search for songs they want to listen to?
 
-## Opportunity
+## Opportunity: Create a search bar that will take the user's input and search their input for the songs they're looking for.
 
-## Technical Magic
+## Technical Magic:
 
-## Future Vision
+## Future Vision:

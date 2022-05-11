@@ -1,3 +1,18 @@
-h1 {
-  color: fuchsia;
+body {
+  background-image: url("https://images.vexels.com/media/users/3/72022/raw/9f7750e18e0a258f880e42875336ae3d-tear-off-paper-movie-film-background.jpg");
+}
+
+.movie-display {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.movies {
+  width: 250px;
+}
+
+.searchInput {
+  width: 350px;
+  padding: 15px;
 }

@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Client Project</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Your CSS Linked Below-->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    
-    <h1> Client Project </h1>
-    
-    <!-- jQuery Linked Below-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Your Javascript Linked Below-->
-    <script src="js/script.js" defer></script> 
-  </body>
+    <title>Search Movies!</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
+    <!-- Your CSS Linked Below-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Movie Zone</h1>
+
+    <h2>Search for your favorite movies here!</h2>
+
+    <div class="searchBar">
+      <input
+        class="form-control searchInput" placeholder="Search movies here..."/>
+      <button class="submit btn btn-info" type="button">Search</button>
+    </div>
+
+    <div class="display">
+      <div class="movieTitle"></div>
+      <div class="moviePoster"></div>
+      <div class="releaseDate"></div>
+    </div>
+    
+    <div class="movie-display">
+      <img class="movies" src="https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg">
+      <img class="movies" src="https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg">
+      <img class="movies" src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg">
+      <img class="movies" src="https://www.thomasmemoriallibrary.org/wp-content/uploads/2019/04/Sing-poster.jpg">
+      <img class="movies" src="https://m.media-amazon.com/images/I/81g8l9hN46L._AC_SL1038_.jpg">
+      <img class="movies" src="https://m.media-amazon.com/images/M/MV5BMTQzYWYwYjctY2JhZS00NTYzLTllM2UtZWY5ZTk0NmYwYzIyXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg">
+    </div>
+
+    <!-- Don't touch this! -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js" async defer></script>
+  </body>
 </html>
