@@ -1,13 +1,16 @@
 //movie api url
-$(".releaseDate").hide();
-$(".description").hide();
+// $(".releaseDate").hide();
+// $(".description").hide();
+
+$(".info").hide();
 
 $(".submit").click(function () {
   let userInput = $(".searchInput").val();
   console.log(userInput);
   let moviePosterURL = "https://image.tmdb.org/t/p/w500";
-$(".releaseDate").show();
-$(".description").show();
+// $(".releaseDate").show();
+// $(".description").show();
+  $(".info").show();
   
   let movieAPI = `https://api.themoviedb.org/3/search/movie?api_key=73fd371dd4dae96ea8f80a479504448a&language=en-US&query=${userInput}&page=1&include_adult=false`;
   fetch(movieAPI)
@@ -25,7 +28,7 @@ $(".description").show();
         
         let moviePoster = data.results[0].poster_path;
         let PosterURL = moviePosterURL + moviePoster;
-        $(".moviePoster").html(`<img src="${PosterURL}">`);
+        $(".moviePoster").html(`<img class="movieImage" src="${PosterURL}">`);
         console.log(PosterURL);
         
         let releaseDate = data.results[0].release_date;

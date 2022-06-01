@@ -1,6 +1,7 @@
 body {
   background-image: url("https://images.vexels.com/media/users/3/72022/raw/9f7750e18e0a258f880e42875336ae3d-tear-off-paper-movie-film-background.jpg");
 }
+/*  https://hdwallpaperim.com/wp-content/uploads/2017/08/23/472571-film_reel-movies-748x403.jpg */
 
 .movie-display {
   padding: 100px;
@@ -18,16 +19,41 @@ body {
 }
 
 .display {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 20px 20px 60px 20px;
+  color: #fc0303;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.moviePoster {
-  width: 300px;
+
+.movieImage {
+    width: 250px;
+    height: auto;
+    border: 10px double orange;
 }
 
 .info {
   width: 50%;
 }
+
+.title {
+  font-family: 'Macondo', cursive;
+}
+
+h2 {
+  font-family: 'Macondo', cursive;
+}
+
+.searchBar {
+  font-family: 'Macondo', cursive;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+
